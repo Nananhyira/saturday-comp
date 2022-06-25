@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+// import Nav from "./Nav";
+// import ClassComponents from "./ClassComponents"
+import Esx from "./Esx";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div>
+			{/* <Nav name="Zidane" />
+      < ClassComponents/>
+      <Nav name="Dan"/> */}
+			<Esx name="Daniel" time="afternoon" age={6} />
+			<Esx name="Zidane" time="evening"  />
+			<Esx name="Promise" time="Morning" />
+			<Esx name="Daniel" time="afternoon" />
+			<Esx name="Daniel" time="afternoon" />
+			<Esx name="Henry" time="afternoon" />
+		</div>
+	);
 }
 
 export default App;
